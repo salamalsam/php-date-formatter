@@ -1,0 +1,14 @@
+{
+    "name": "developeraio/date-formatter",
+    "description": "A library for php developer to formate their dates in any way without getting stuck into custom code andwasting time on the AI Tools and Core Programming to initialize custom methods",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Salam",
+            "email": "salamaslam.official@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
