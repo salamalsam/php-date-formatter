@@ -6,46 +6,46 @@ This PHP Date Formatter package provides convenient methods for formatting dates
 
 ## Installation
 
-You can install this package via Composer:
+You can install this package via Composer:<br>
 <code>composer require your-package-name</code>
 
 ### Usage
 Instantiate the Date Formatter class and utilize its methods as needed.
 
 ### Constructor
-The constructor initializes the Date Formatter with default format and timezone settings.
+The constructor initializes the Date Formatter with default format and timezone settings.<br>
 <code>public function __construct($defaultFormat = "Y-m-d H:i:s", $defaultTimezone = "UTC")</code>
 
 ### formatDateWithTimeStamp
-Formats a Unix timestamp according to the specified format and timezone.
+Formats a Unix timestamp according to the specified format and timezone.<br>
 <code>public function formatDateWithTimeStamp($timestamp, $format = null, $timezone = null)</code>
 
 ### formatDate
-Formats a date string according to the specified format and timezone.
+Formats a date string according to the specified format and timezone.<br>
 <code>public function formatDate($dateString, $format = null, $timezone = null)</code>
 
 ### getDaysDifference
-Calculates the number of days between two timestamps.
+Calculates the number of days between two timestamps.<br>
 <code>public function getDaysDifference($startTimestamp, $endTimestamp)</code>
 
 ### getHoursDifference
-Calculates the number of hours between two timestamps.
+Calculates the number of hours between two timestamps.<br>
 <code>public function getHoursDifference($startTimestamp, $endTimestamp)</code>
 
 ### getHoursAndMinutesDifferenceArray
-Calculates the number of hours and minutes between two timestamps and returns an array.
+Calculates the number of hours and minutes between two timestamps and returns an array.<br>
 <code>public function getHoursAndMinutesDifferenceArray($startTimestamp, $endTimestamp)</code>
 
 ### getHoursAndMinutesDifferenceString
-Calculates the number of hours and minutes between two timestamps and returns a formatted string.
+Calculates the number of hours and minutes between two timestamps and returns a formatted string.<br>
 <code>public function getHoursAndMinutesDifferenceString($startTimestamp, $endTimestamp)</code>
 
 ### getYearsAndDaysDifferenceArray
-Calculates the number of years and remaining days between two dates and returns an array.
+Calculates the number of years and remaining days between two dates and returns an array.<br>
 <code>public function getYearsAndDaysDifferenceArray($startDate, $endDate)</code>
 
 ### getYearsAndDaysDifferenceString
-Calculates the number of years and remaining days between two dates and returns a formatted string.
+Calculates the number of years and remaining days between two dates and returns a formatted string.<br>
 <code>public function getYearsAndDaysDifferenceString($startDate, $endDate)</code>
 
 ## Conclusion
