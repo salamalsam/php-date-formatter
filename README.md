@@ -7,7 +7,7 @@ This PHP Date Formatter package provides convenient methods for formatting dates
 ## Installation
 
 You can install this package via Composer:<br>
-<code>composer require your-package-name</code>
+<code>composer require developeraio/date-formatter</code>
 
 ### Usage
 Instantiate the Date Formatter class and utilize its methods as needed.
